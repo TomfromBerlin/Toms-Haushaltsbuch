@@ -79,7 +79,7 @@ Dieses Tool richtet sich an:
 | Neue Monate hinzufügen? | Nicht nötig – alles ist bereits für das ganze Jahr vorbereitet. |
 | Warum wird in zukünftigen Monaten in manchen Zellen das heutige Datum angezeigt? | In einigen Zellen werden Einträge nur bis zum aktuellen Datum ausgewertet. D.h., wenn Einträge vorgenommen werden, deren Datum später als *HEUTE* liegt, werden diese Einträge nicht mit berechnet. So hat man immer den aktuellen Stand der Finanzen. |
 | Zu wenige Zeilen im Monat? | Zeilen können hinzugefügt werden, aber die Formeln müssen ergänzt werden. |
-| Die Sheets sind vor Veränderung geschützt? | Die Sheets sind zum Schutz der Formeln geschützt, der Schutz kann jedoch leicht aufgehoben werden. Das Passwort ist leer. |
+| Änderungsversuche werden nicht akzeptiert | Die Sheets sind zum Schutz der Formeln geschützt, der Schutz kann jedoch leicht aufgehoben werden. Das Passwort ist leer. |
 
 ---
 
