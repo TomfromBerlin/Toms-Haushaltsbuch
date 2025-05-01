@@ -6,8 +6,6 @@ Ein vollständiges Haushaltsbuch für Privathaushalte – ohne Makros, ohne komp
 ---
 ## Inhaltsverzeichnis
 
-## Inhaltsverzeichnis
-
 - [Zielgruppe](#zielgruppe)
 - [Funktionen und Features](#funktionen-und-features)
 - [Struktur](#struktur)
