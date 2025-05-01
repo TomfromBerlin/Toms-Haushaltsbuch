@@ -55,7 +55,7 @@ Dieses Tool richtet sich an:
 
 - **Formeln nicht überschreiben!** Geschützte Zellen zeigen das durch einen Zellschutz an. Der Schutz kann entfernt werden, ist aber nicht passwortgesichert.
 - Kategorien werden über die Spalte `Verwendungszweck` erkannt. Beispiel: Ein Eintrag wie `Gehalt März` zählt zur Kategorie `Gehalt`, wenn diese im Sheet `Summary` festgelegt ist.
-- Das aktuelle Datum wird in zukünftigen Monaten bis zum Monatsende automatisch angezeigt, danach bleibt es stehen.
+- Das aktuelle Datum wird in zukünftigen Monaten bis zum Monatsende automatisch angezeigt. Ist das Monatsende erreicht bleibt es beim Datum des letzten Tags des jeweiligen Monats stehen.
 - Für korrekte Anzeige der Smileys brauchst du die Schriftart [`DroidSansMono Nerd Font`](https://www.nerdfonts.com/font-downloads).
 
 ---
@@ -75,7 +75,9 @@ Dieses Tool richtet sich an:
 | Kategorien werden nicht erkannt | Stichwort fehlt im Verwendungszweck oder die Schreibweise ist nicht identisch. |
 | Smileys sind kryptisch | Nerd Font fehlt. [`DroidSansMono Nerd Font`](https://www.nerdfonts.com/font-downloads) |
 | Zellen „meckern“ oder sehen komisch aus | Wurden versehentlich Formeln geändert oder gelöscht? Manche Formeln sind als Matrix-Formeln markiert. Ohne Markierung funktionieren diese Formeln nicht und geben eine Fehlermeldung aus. |
+| Eingetragene Werte werden nicht in die Berechnung einbezogen | Das kann mehrere Ursachen haben. Entweder liegt das Datum der Buchung in der Zukunft oder es wurde kein Datum eingetragen oder der Eintrag ist in der falschen Spalte (z.B. ein negativer Wert bei *Einkünften*). |
 | Neue Monate hinzufügen? | Nicht nötig – alles ist bereits für das ganze Jahr vorbereitet. |
+| Warum wird in zukünftigen Monaten in manchen Zellen das heutige Datum angezeigt? | In einigen Zellen werden Einträge nur bis zum aktuellen Datum ausgewertet. D.h., wenn Einträge vorgenommen werden, deren Datum später als *HEUTE* liegt, werden diese Einträge nicht mit berechnet. So hat man immer den aktuellen Stand der Finanzen. |
 | Zu wenige Zeilen im Monat? | Zeilen können hinzugefügt werden, aber die Formeln müssen ergänzt werden. |
 | Die Sheets sind vor Veränderung geschützt? | Die Sheets sind zum Schutz der Formeln geschützt, der Schutz kann jedoch leicht aufgehoben werden. Das Passwort ist leer. |
 
