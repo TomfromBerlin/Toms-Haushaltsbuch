@@ -3,6 +3,19 @@
 # 📊 Haushaltsbuch für LibreOffice Calc
 
 Ein vollständiges Haushaltsbuch für Privathaushalte – ohne Makros, ohne komplizierte Technik, aber mit jeder Menge Features. Entwickelt, um den Überblick über Einnahmen, Ausgaben und Ersparnisse zu behalten – und das ganze Jahr im Blick zu haben.
+---
+## Inhaltsverzeichnis
+
+## Inhaltsverzeichnis
+
+- [Zielgruppe](#zielgruppe)
+- [Funktionen und Features](#funktionen-und-features)
+- [Struktur](#struktur)
+- [Hinweise zur Benutzung](#hinweise-zur-benutzung)
+- [Screenshots](#screenshots)
+- [Bekannte Stolperfallen](#bekannte-stolperfallen)
+- [Anpassung & Erweiterung](#anpassung--erweiterung)
+- [Lizenz](#lizenz)
 
 ---
 
@@ -16,7 +29,7 @@ Dieses Tool richtet sich an:
 
 ---
 
-## ✨ Features
+## ✨ Funktionen und Features
 
 ✅ 12 Monatsblätter mit farblicher Markierung von Einnahmen und Ausgaben  
 ✅ Übersicht (`Summary`) mit automatischer Kategorisierung und Trenddarstellung  
@@ -78,4 +91,5 @@ Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit
 
 ## 📜 Lizenz
 
-*Creative Commons MIT (by-nc-sa)*
+*Namensnennung - Keine kommerzielle Nutzung - Weitergabe unter gleichen Bedingungen (by-nc-sa)*
+[https://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.de](https://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.de)
