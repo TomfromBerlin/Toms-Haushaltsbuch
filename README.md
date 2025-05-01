@@ -90,4 +90,5 @@ Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit
 ## 📜 Lizenz
 
 *Namensnennung - Keine kommerzielle Nutzung - Weitergabe unter gleichen Bedingungen (by-nc-sa)*
+
 [https://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.de](https://creativecommons.org/licenses/by-nc-sa/3.0/de/deed.de)
