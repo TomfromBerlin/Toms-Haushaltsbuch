@@ -14,6 +14,7 @@ Entwickelt, um den Überblick über Einnahmen, Ausgaben und Ersparnisse zu behal
 - [Screenshots](#screenshots)
 - [Bekannte Stolperfallen](#bekannte-stolperfallen)
 - [Anpassung & Erweiterung](#anpassung--erweiterung)
+- [To-Do](#to-do)
 - [Lizenz](#lizenz)
 
 ---
@@ -90,9 +91,9 @@ Dieses Tool richtet sich an:
 Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit LibreOffice Calc auskennen (z. B. Zellbezüge, Zellschutz und bedingte Formatierung). Dann können in dem gewünschten Monat neue Zeilen hinzugefügt werden. Dabei ist zu beachten, dass die Formeln in der ganzen Zeile entsprechend ergänzt werden müssen. Wie gesagt: Grundkenntnisse in LibreCalc sind in dem Fall äußerst hilfreich.
 
 ---
-## To-Do
+## 📝 To-Do
 
-Implementierung einer dynamischen Berechnung des verfügbaren monatlichen Budgets durch Einbeziehung künftiger Buchungen
+- Implementierung einer dynamischen Berechnung des verfügbaren monatlichen Budgets durch Einbeziehung künftiger Buchungen
 
 ---
 
