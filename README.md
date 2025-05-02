@@ -30,23 +30,23 @@ Dieses Tool richtet sich an:
 
 ## ✨ Funktionen und Features
 
-✅ 12 Monatsblätter mit farblicher Markierung von Einnahmen und Ausgaben  
-✅ Übersicht (`Summary`) mit automatischer Kategorisierung und Trenddarstellung  
-✅ Dynamische Diagramme im Sheet `Diagramme`  
-✅ Zusätzliche Berechnungen wie Stundenlohn, Einzelpreis oder Ersparnis in %  
-✅ Extra-Sheet für Prozentrechnung (Rabatt-Erkennung)  
-✅ Eingabeschutz für Formeln (kein Passwort nötig)  
-✅ Smiley-Stimmungsbarometer zur finanziellen Lage (Jahresüberblick)  
-✅ Funktioniert vollständig **offline** in LibreOffice Calc  
-✅ **Keine Makros**, keine Cloud, keine Drittanbieter-Dienste
+- ✅ 12 Monatsblätter mit farblicher Markierung von Einnahmen und Ausgaben
+- ✅ Übersicht (Sheet `Summary`) mit Möglichkeit zur Anzeige einzelner Kategorien und Trenddarstellung (teilweise)
+- ✅ Dynamische Diagramme im Sheet `Diagramme` plus Trendlinien für wichtige Kenngrößen
+- ✅ Zusätzliche Berechnungen wie Stundenlohn, Einzelpreis oder Ersparnis bei Rabatt-Käufen
+- ✅ Extra-Sheet für Prozentrechnung (Rabatt-Berechnung) mit Erklärung. Werte eintragen - fertig.
+- ✅ Eingabeschutz für Formeln (kein Passwort nötig)
+- ✅ Smiley-Stimmungsbarometer zur finanziellen Lage
+- ✅ Funktioniert vollständig **offline** in LibreOffice Calc
+- ✅ **Keine Makros**, keine Cloud, keine Drittanbieter-Dienste
 
 ---
 
 ## 📂 Struktur
 
 - **Einstellungen:** Jahreszahl, Startwerte, Feiertage, Wochenstunden
-- **Monate:** `Januar`, `Februar`, ..., `Dezember` – für die Transaktionen
-- **Summary:** Jahresüberblick inkl. Diagrammen & Kategorientracking
+- **Monate:** `Januar`, `Februar`, ..., `Dezember` – für Transaktionen und Erfassung des Bargeldbestands
+- **Summary:** Jahresüberblick inklusive Kategorientracking, Trendanalyse für bestimmte Kategorien und Anzeige des Finanzstatus (Konto u. Bargeld)
 - **Diagramme:** Visualisierung des Verlaufs von Einnahmen, Ausgaben etc.
 - **Prozent:** Tool zur Rabatt-Berechnung
 
@@ -54,10 +54,11 @@ Dieses Tool richtet sich an:
 
 ## 📌 Hinweise zur Benutzung
 
+- beste Darstellung bei einer Auflösung von 1980x1080 (Standard-Monitorgröße für Desktop-PCs)
 - **Formeln nicht überschreiben!** Geschützte Zellen zeigen das durch einen Zellschutz an. Der Schutz kann entfernt werden, ist aber nicht passwortgesichert.
 - Kategorien werden über die Spalte `Verwendungszweck` erkannt. Beispiel: Ein Eintrag wie `Gehalt März` zählt zur Kategorie `Gehalt`, wenn diese im Sheet `Summary` festgelegt ist.
 - Das aktuelle Datum wird in zukünftigen Monaten bis zum Monatsende automatisch angezeigt. Ist das Monatsende erreicht bleibt es beim Datum des letzten Tags des jeweiligen Monats stehen.
-- Für korrekte Anzeige der Smileys brauchst du die Schriftart [`DroidSansMono Nerd Font`](https://www.nerdfonts.com/font-downloads).
+- Für die korrekte Anzeige der Smileys brauchst du die Schriftart [`DroidSansMono Nerd Font`](https://www.nerdfonts.com/font-downloads) [`direkter Download`](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DroidSansMono.zip), ansonsten werden lediglich Unicode-Smileys angezeigt.
 
 ---
 
@@ -75,7 +76,7 @@ Dieses Tool richtet sich an:
 |-----------|-----------|
 | Kategorien werden nicht erkannt | Stichwort fehlt im Verwendungszweck oder die Schreibweise ist nicht identisch. |
 | Smileys sind kryptisch | Nerd Font fehlt. [`DroidSansMono Nerd Font`](https://www.nerdfonts.com/font-downloads) |
-| Zellen „meckern“ oder sehen komisch aus | Wurden versehentlich Formeln geändert oder gelöscht? Manche Formeln sind als Matrix-Formeln markiert. Ohne Markierung funktionieren diese Formeln nicht und geben eine Fehlermeldung aus. |
+| Zellen „meckern“ oder sehen komisch aus | Wurden versehentlich Formeln geändert oder gelöscht? Manche Formeln sind [Matrix-Formeln](https://help.libreoffice.org/latest/de/text/scalc/guide/matrixformula.html) (eine geschweifte Klammer {...} um die Formel zeigt dies an). Ohne diese Markierung als Matrix-Formel funktionieren diese Formeln nicht und geben eine Fehlermeldung aus. Es reicht übrigens nicht, einfach die geschweiften Klammern manuell einzufügen. |
 | Eingetragene Werte werden nicht in die Berechnung einbezogen | Das kann mehrere Ursachen haben. Entweder liegt das Datum der Buchung in der Zukunft oder es wurde kein Datum eingetragen oder der Eintrag ist in der falschen Spalte (z.B. ein negativer Wert bei *Einkünften*). |
 | Neue Monate hinzufügen? | Nicht nötig – alles ist bereits für das ganze Jahr vorbereitet. |
 | Warum wird in zukünftigen Monaten in manchen Zellen das heutige Datum angezeigt? | In einigen Zellen werden Einträge nur bis zum aktuellen Datum ausgewertet. D.h., wenn Einträge vorgenommen werden, deren Datum später als *HEUTE* liegt, werden diese Einträge nicht mit berechnet. So hat man immer den aktuellen Stand der Finanzen. |
@@ -86,7 +87,7 @@ Dieses Tool richtet sich an:
 
 ## 🛠️ Anpassung & Erweiterung
 
-Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit LibreOffice Calc auskennen – z. B. Zellbezüge, Zellschutz und bedingte Formatierung. Dann können in dem gewünschten Monat neue Zeilen hinzugefügt werden. Dabei ist zu beachten, dass die Formeln in der ganzen Zeile entsprechend ergänzt werden müssen. Wie gesagt: Grundkenntnisse in LibreCalc sind in dem Fall äußerst hilfreich.
+Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit LibreOffice Calc auskennen (z. B. Zellbezüge, Zellschutz und bedingte Formatierung). Dann können in dem gewünschten Monat neue Zeilen hinzugefügt werden. Dabei ist zu beachten, dass die Formeln in der ganzen Zeile entsprechend ergänzt werden müssen. Wie gesagt: Grundkenntnisse in LibreCalc sind in dem Fall äußerst hilfreich.
 
 ---
 
@@ -94,5 +95,5 @@ Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit
 
 *Namensnennung-Nicht kommerziell-Share Alike 4.0 International (by-nc-sa)*
 
-[https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+[`https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de`](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
