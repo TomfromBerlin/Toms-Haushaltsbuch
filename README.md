@@ -44,11 +44,11 @@ Dieses Tool richtet sich an:
 
 ## 📂 Struktur
 
-- **Einstellungen:** Jahreszahl, Startwerte, Feiertage, Wochenstunden
-- **Monate:** `Januar`, `Februar`, ..., `Dezember` – für Transaktionen und Erfassung des Bargeldbestands
-- **Summary:** Jahresüberblick inklusive Kategorientracking, Trendanalyse für bestimmte Kategorien und Anzeige des Finanzstatus (Konto u. Bargeld)
-- **Diagramme:** Visualisierung des Verlaufs von Einnahmen, Ausgaben etc.
-- **Prozent:** Tool zur Rabatt-Berechnung
+- **Sheet Einstellungen:** Jahreszahl, Startwerte, Feiertage, Wochenstunden
+- **Sheets Monate:** `Januar`, `Februar`, ..., `Dezember` – für Transaktionen und Erfassung des Bargeldbestands
+- **Sheet Summary:** Jahresüberblick inklusive Kategorientracking, Trendanalyse für bestimmte Kategorien und Anzeige des Finanzstatus (Konto u. Bargeld)
+- **Sheet Diagramme:** Visualisierung des Verlaufs von Einnahmen, Ausgaben etc.
+- **Sheet Prozentrechnung:** Tool zur Rabatt-Berechnung
 
 ---
 
@@ -89,6 +89,9 @@ Dieses Tool richtet sich an:
 
 Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit LibreOffice Calc auskennen (z. B. Zellbezüge, Zellschutz und bedingte Formatierung). Dann können in dem gewünschten Monat neue Zeilen hinzugefügt werden. Dabei ist zu beachten, dass die Formeln in der ganzen Zeile entsprechend ergänzt werden müssen. Wie gesagt: Grundkenntnisse in LibreCalc sind in dem Fall äußerst hilfreich.
 
+---
+## To-Do
+Implementierung einer dynamischen Berechnung des verfügbaren monatlichen Budgets durch Einbeziehung künftiger Buchungen
 ---
 
 ## 📜 Lizenz
