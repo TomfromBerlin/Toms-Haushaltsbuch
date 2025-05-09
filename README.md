@@ -93,7 +93,7 @@ Wer mehr Transaktionen oder Spezialfunktionen braucht, sollte sich ein wenig mit
 ---
 ## 📝 To-Do
 
-- Implementierung einer dynamischen Berechnung des verfügbaren monatlichen Budgets durch Einbeziehung künftiger Buchungen
+- ~~Implementierung einer dynamischen Berechnung des verfügbaren monatlichen Budgets durch Einbeziehung künftiger Buchungen~~ Done!
 
 ---
 
