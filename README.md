@@ -1,3 +1,4 @@
+![sucaba_pic](sucaba_2_half.png)
 # Toms Haushaltsbuch
 
 # 📊 Haushaltsbuch für LibreOffice Calc
